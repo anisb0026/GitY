@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Departement">
+
+  <listeners>
+    <listener  class-name = "test.listener"/>
+  </listeners>
+  
+     <test  name="Personnal Loan">
+        <parameter name = "URL" value ="PersoonalLoan.com"/>
+        <classes>
+          <class name="test.Day1"/> <!-- package name.nameclass-->
+           <class name="test.Day2"/>
+           <class name="test.Day3"/>
+        </classes>
+     </test>   
+  
+  
+     <test name = "Car Loan">
+  <!-- Multiple Parameters-->
+       <parameter name = "URL" value ="CarLoan.com"/>
+       <parameter name = "username" value ="1234"/>
+       <classes>
+          <class name="test.Day4"/>
+       </classes>
+     </test> 
+   
+</suite> 
+
+
