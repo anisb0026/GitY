@@ -14,7 +14,7 @@ public class Day1
 	  @Test
 	  public void Demo0()
 	   {
-		  System.out.println("aaaaaa"); 
+		  System.out.println("zzzzzzzz"); 
 		  Assert.assertTrue(false); //just I fail the test to see the result 
        }
 	
@@ -43,13 +43,13 @@ public class Day1
 	  public void Demo1(String urlname)
 	   {
 		  System.out.println(urlname); // Selenium : driver.get("http:facebook.com").
-          System.out.println("Heloo Slim");
+          System.out.println("Heloo Mongi");
        }
 	
 	  //Test Case 2
 	  @Test(groups ={"smoke"}) 
 	  public void Demo2(){
-		System.out.println("Heloo Slim");
+		System.out.println("Heloo Ahmed");
       }
 	 	
 }
