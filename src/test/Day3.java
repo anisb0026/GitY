@@ -11,6 +11,8 @@ public class Day3
      {
 		
        System.out.println("WebLoginHome");
+       System.out.println("WebLoginHome");
+     }
      }
 	
     //Test Case 2

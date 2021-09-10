@@ -21,6 +21,7 @@ public class Day1
 	 	@BeforeClass 
 		public void bfrclass() {
 			System.out.println("I will excute before any tests in class Day1");
+			System.out.println("I will excute before any tests in class Day1");
 		}
 		@AfterClass 
 		public void aftrclass() {
