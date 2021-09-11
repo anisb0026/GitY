@@ -13,7 +13,7 @@ public class Day3
        System.out.println("WebLoginHome");
        System.out.println("WebLoginHome");
      }
-     }
+     
 	
     //Test Case 2
 	@Test 
@@ -34,6 +34,31 @@ public class Day3
 	   System.out.println("APILoginHome");
 	  
         }
+	//Test Case 4
+		@Test 
+		public void Eninsy9ahba() 
+		{
+		   System.out.println("APILoginHome");
+		  
+	        }
+		
+		//Test Case 5
+				@Test 
+				public void aoubeirmnayik() 
+				{
+				   System.out.println("APILoginHome");
+				  
+			     }
+		
+
+				//Test Case 6
+						@Test 
+						public void anis() 
+						{
+						   System.out.println("APILoginHome");
+						  
+					     }
+	
 	
 	@AfterTest
 	public void afttest()
